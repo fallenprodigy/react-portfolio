@@ -1,0 +1,57 @@
+import React from "react";
+import "./ProjectCard.css";
+
+const ProjectCard = ({ project }) => {
+  return (
+    <div className="project-card">
+      <div className="project-info">
+        <label className="project-title">{project.title}</label>
+        <div className="project-links">
+          {project.demo && (
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="project-link"
+              href={project.demo}
+            >
+              <div className="link-button">
+                <img
+                  className="demo-link"
+                  src="https://img.icons8.com/material-outlined/24/000000/link--v1.png"
+                  alt="link"
+                />{" "}
+                Demo
+              </div>
+            </a>
+          )}
+          {project.github && (
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="project-link"
+              href={project.github}
+            >
+              <div className="link-button">
+                <i className="devicon-github-original colored"></i>
+                Github
+              </div>
+            </a>
+          )}
+        </div>
+        <p>{project.about}</p>
+        <div className="project-tags">
+          {project.tags.map((tag, index) => {
+            return (
+              <label key={index} className="tag">
+                {tag}
+              </label>
+            );
+          })}
+        </div>
+      </div>
+      <img src={project.image} alt="todo" className="project-photo"></img>
+    </div>
+  );
+};
+
+export default ProjectCard;
