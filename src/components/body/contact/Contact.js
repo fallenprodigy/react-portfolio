@@ -16,7 +16,7 @@ const Contact = () => {
             <div className="download">
               <a download href={require("../../../assets/resume.pdf")}>
                 <img
-                  className="download"
+                  className="download "
                   src="https://img.icons8.com/material-outlined/36/000000/download--v1.png"
                   alt="download"
                 />

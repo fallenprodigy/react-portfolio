@@ -33,7 +33,7 @@ export const ProjectData = [
     id: 4,
     title: "Movie Website Design",
     about:
-      "This is a very cool and modern movie website design. This website can be toggeled between light and dark mode too. ",
+      "This is a very cool and modern movie website design. This website can be toggled between light and dark modes too. ",
     tags: ["HTML", "CSS", "Javascript", "FontAwesome"],
     demo: "https://11-movie-website-design.netlify.app/",
     github: "https://github.com/fallenprodigy/movie-website-design",
