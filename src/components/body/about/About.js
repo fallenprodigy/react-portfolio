@@ -8,20 +8,20 @@ const About = () => {
       <div className="about-top">
         <div className="about-info">
           <h3 className="typewriter">
-            Hello everyone👋<span className="info-name">I'm Giorgi</span>
+            Hello People👋<span className="info-name">My name is Giorgi</span>
           </h3>
           <br />
           <span className="info-text">
-            A passionate Full Stack Developer 🚀 having an experience of
-            building Web applications with JavaScript / Reactjs / Nextjs /NodeJs
-            and some other cool libraries and frameworks. I'm 19 years old,
-            studying at Business and Technologies University.
+            and I'm the fastest Full Stack Developer alive ⚡ having an
+            experience of building Web applications with JavaScript / Reactjs /
+            Nextjs /NodeJs and some other cool libraries and frameworks. I'm 19
+            years old, studying at Business and Technologies University.
           </span>
         </div>
         <div className="about-photo">
           <img
             className="picture"
-            src={require("../../../assets/coding.png")}
+            src={require("../../../assets/flash2.jpg")}
             alt="coding"
           />
         </div>

@@ -23,22 +23,23 @@ export const ProjectData = [
     id: 3,
     title: "Airbnb Clone",
     about:
-      "This is one of the best projects which i have built. This is very popular Airbnb website clone, where you can search hotels and book ",
+      "This is one of the best projects which i have built. This is a very popular Airbnb website clone, where you can search hotels and book ",
     tags: ["ReactJs", "NextJs", "NodeJs", "TailwindCss"],
     demo: "https://01-airbnb.netlify.app/",
     github: "https://github.com/fallenprodigy",
     image: require("../../assets/projects-image/airbnb.gif"),
   },
-
   {
     id: 4,
-    title: "Profile Cards",
-    about: "Cool characters with cool profile cards ",
-    tags: ["HTML ", "CSS", "Javascript"],
-    demo: "https://09-cool-profile-cards.netlify.app/",
-    github: "https://github.com/fallenprodigy",
-    image: require("../../assets/projects-image/profile-cards.GIF"),
+    title: "Movie Website Design",
+    about:
+      "This is a very cool and modern movie website design. This website can be toggeled between light and dark mode too. ",
+    tags: ["HTML", "CSS", "Javascript", "FontAwesome"],
+    demo: "https://11-movie-website-design.netlify.app/",
+    github: "https://github.com/fallenprodigy/movie-website-design",
+    image: require("../../assets/projects-image/movie-design.GIF"),
   },
+
   {
     id: 5,
     title: "Memomry Game",
@@ -58,5 +59,15 @@ export const ProjectData = [
     demo: "https://02-breakingbad-app.netlify.app/",
     github: "https://github.com/fallenprodigy",
     image: require("../../assets/projects-image/breaking-bad.GIF"),
+  },
+
+  {
+    id: 7,
+    title: "Profile Cards",
+    about: "Cool characters with cool profile cards ",
+    tags: ["HTML ", "CSS", "Javascript"],
+    demo: "https://09-cool-profile-cards.netlify.app/",
+    github: "https://github.com/fallenprodigy",
+    image: require("../../assets/projects-image/profile-cards.GIF"),
   },
 ];

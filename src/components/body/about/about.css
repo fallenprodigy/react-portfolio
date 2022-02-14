@@ -1,6 +1,6 @@
-.about {
+/* .about {
   padding-bottom: 40px;
-}
+} */
 .about-top {
   display: flex;
   justify-content: space-between;
@@ -17,22 +17,9 @@
   color: blue;
   font-size: 32px;
 }
-
-@media only screen and (max-width: 720px) {
-  .about-top {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .picture {
-    height: 280px;
-  }
-  .about-info {
-    font-size: 20px;
-  }
-  .info-name {
-    font-size: 26px;
-  }
+.info-text {
+  color: #868e96;
+  font-size: 20px;
 }
 
 h3 {
@@ -56,11 +43,6 @@ h3:hover span:nth-child(2) {
   margin-left: 30px;
 }
 
-.info-text {
-  color: #868e96;
-  font-size: 20px;
-}
-
 h3 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   /* border-right: 0.15em solid rgb(0, 60, 255); */
@@ -68,7 +50,7 @@ h3 {
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto;
   /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.15em; /* Adjust as needed */
+  /* letter-spacing: 0.15em; */
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
@@ -90,5 +72,34 @@ h3 {
   }
   50% {
     border-color: transparent;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .about-top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .picture {
+    height: 280px;
+  }
+  .about-info {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .info-name {
+    font-size: 24px;
+  }
+  .info-text {
+    font-size: 16px;
+  }
+  .typewriter {
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10px;
+    letter-spacing: 3px;
   }
 }
