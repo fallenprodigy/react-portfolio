@@ -3,7 +3,7 @@ export const ProjectData = [
     id: 1,
     title: "Notes App",
     about:
-      "This is the project which taught me a lot when i was learning react. You can add, delete notes, also you can toggle dark and light modes ",
+      "This is the project which taught me a lot when i was learning react. You can add, delete notes, also you can toggle dark and light modes. ",
     tags: ["ReactJs", "NodeJs"],
     demo: "https://06-react-notes-app.netlify.app/",
     github: "https://github.com/fallenprodigy/react-notes-app",
@@ -12,7 +12,7 @@ export const ProjectData = [
   {
     id: 2,
     title: "Movie Landing Page",
-    about: "Simple movie landing page design which I think is cool ",
+    about: "Simple movie landing page design which I think is cool. ",
     tags: ["HTML", "CSS", "Javascript"],
     demo: "https://04-movie-landing-page.netlify.app/",
     github: "https://github.com/fallenprodigy",
@@ -23,7 +23,7 @@ export const ProjectData = [
     id: 3,
     title: "Airbnb Clone",
     about:
-      "This is one of the best projects which i have built. This is a very popular Airbnb website clone, where you can search hotels and book ",
+      "This is one of the best projects which I have built. This is a very popular Airbnb website clone, where you can search and book hotels. ",
     tags: ["ReactJs", "NextJs", "NodeJs", "TailwindCss"],
     demo: "https://01-airbnb.netlify.app/",
     github: "https://github.com/fallenprodigy",
